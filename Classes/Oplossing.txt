@@ -1,0 +1,19 @@
+1 :
+[D]X
+2 :
+[DC]XX
+3 :
+[]
+4 :
+[D]
+5 :
+[DC!X]X
+6 :
+[FDBDQD]QXBXFX
+7 :
+[FDBDFIFX]BXFX
+8 :
+[DX]
+9 :
+DAXDAX
+10/11/12

@@ -1,0 +1,7 @@
+Hello World
+10
+10
+The string counts 5 characters
+15 	// De eerste Cin zegt hoe vaak de loop moet gebeuren. Hierna wordt voor iedere cin die bij het totaal opgeteld
+-2 	// numeric_limits<int>::max() geeft het grootste mogelijke getal terug van Int.
+	//In de pick methode wordt gekeken welke het laagste getal is

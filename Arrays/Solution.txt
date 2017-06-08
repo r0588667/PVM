@@ -1,0 +1,29 @@
+1 :
+12345
+2 :
+246810
+3 :
+The contents of a freshly allocated array are unknown.
+Memory is not "cleared" or reset to 0 for you behind the scenes.
+4 :
+12305
+5 :
+12045
+p contains the address of the element with index 2.
+Writing to p has the same effect as writing to ns[2].
+6 : 
+10345
+p[0] means "take the first element of the array starting at address p".
+Even though we never actually created an array at that address,
+we can pretend we did. Since p points to ns[1],
+the array pointed at by p starts there too, meaning p[0] and ns[1] are the same.
+7 :
+12305
+p can be seen as an array overlapping with ns:
+it's shifted three items to the right with respect to ns.
+p[0] coincides with ns[2], and similarly, p[1] with ns[3].
+8 :
+02345
+There's nothing wrong with negative indices as long as you end up inside the array.
+9 :
+You're not allowed to go beyond the array's bounds.

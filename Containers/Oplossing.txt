@@ -1,0 +1,30 @@
+1 : 
+1324
+auto is similar to C#'s var: it lets the compiler deduce the type for you.
+n has actually type int in the above code.
+2 : 
+XXXX
+3 : 
+1234
+Everything is passed by value in C++. This means that foo operates on a copy.
+4 :
+14916
+foo receives a pointer to the vector
+,meaning it gets direct access to it and can modify it.
+5 :
+678
+Assignment between vectors clears the left hand vector
+and copies all elements from the right hand vector into it.
+6 :
+678|
+Do not confuse this with Java semantics. In Java,
+assignment does not operate on objects but on references to objects.
+Setting one ArrayList equal to another (ns = ms) lets ns and ms point to the same object.
+
+No so in C++: ns = ms actually assigns the object ms to ns.
+In other words, you're asking "modify the list ns so that it is equal to ms"
+, which has the effect that ns is cleared and all of ms's items are copied to ns. Now you have two distinct lists in memory, containing the same elements.
+
+In the second step, ms.clear() removes all elements from ms, but ns is not affected by this
+
+7 :

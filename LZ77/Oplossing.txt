@@ -1,0 +1,39 @@
+EX 1
+0 0 a
+14
+EX2
+0 0 a
+12
+EX3
+0 0 a
+0 0 a
+28
+EX4
+0 0 a
+1 1 a
+28
+EX5
+0 0 a
+1 1 a
+32
+EX6
+0 0 a
+0 0 b
+2 2 c
+42
+EX7
+0 0 a
+0 0 b
+2 6 c
+42
+EX8
+0 0 a
+0 0 b
+2 3 b
+2 2 c
+52
+EX9
+EX10
+abba
+EX11
+aaabaabaabaabaabc

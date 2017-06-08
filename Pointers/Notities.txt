@@ -1,0 +1,3 @@
+int*		=	address_of_int		type*		=	Pointer to a type
+&x		=	address_of(x)		&variable	=	Address of variable
+*address = 5;	=	write_to(address,5);	*pointer	=	Dereference pointer

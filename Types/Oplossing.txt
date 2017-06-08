@@ -1,0 +1,22 @@
+EX1
+int
+int
+EX2
+int
+int*
+EX3
+double
+double*
+double**
+double***
+EX4
+int*
+int**
+int**
+int
+int*
+int**
+int
+EX5
+int
+const int
